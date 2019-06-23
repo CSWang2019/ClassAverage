@@ -22,7 +22,7 @@ public class ClassAverage
 		}
 		if(gradeCounter != 0)
 		{
-			int average = total / gradeCounter;
+			double average = total / gradeCounter;
 
 			System.out.printf("%nTotal of all 10 grades is %d%n", total);
 			System.out.printf("%nAverage of all 10 grades is %d%n", average);
